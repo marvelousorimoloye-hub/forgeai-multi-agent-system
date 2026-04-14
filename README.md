@@ -35,7 +35,7 @@ Built as a portfolio showcase for production-grade AI engineering.
 
 ## Project Structure
 
-
+```bash
 src/forgeai/
 ├── agents/                 # Supervisor, Retrievers, Reranker, Critic, etc.
 ├── rag/                    # Vector store + hybrid retrieval
@@ -43,7 +43,7 @@ src/forgeai/
 ├── config/                 # Prompts & Settings
 ├── utils/                  # LLM factory, Pydantic models
 └── monitoring/             # Future dashboard
-
+```
 
 ## Quick start
 ```bash
@@ -65,16 +65,16 @@ python -m src.forgeai.main
 
 ## Roadmap
 
- Streamlit Monitoring Dashboard
- Automated Benchmark Suite
- Multi-modal RAG (images + text)
- Human-in-the-loop feedback
+ Streamlit Monitoring Dashboard,
+ Automated Benchmark Suite,
+ Multi-modal RAG (images + text),
+ Human-in-the-loop feedback.
 
 
 Built with ❤️ in Lagos, Nigeria
 ## This project demonstrates:
 
-Advanced Context Engineering
-Production-grade RAG pipelines
-Agentic systems with reflection loops
-Scalable memory management
+Advanced Context Engineering,
+Production-grade RAG pipelines,
+Agentic systems with reflection loops,
+Scalable memory management.
